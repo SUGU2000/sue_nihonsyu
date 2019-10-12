@@ -1,0 +1,708 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Hirago KakuGothic Pro", sans-serif;
+    font-feature-settings : "palt" 1;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    color: #333333;
+    font-family: 'Noto Serif JP', serif;
+}
+
+section{
+    overflow: hidden;
+    width: 100vw;
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+header {
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    
+    .top {
+        position: relative;
+        
+        img {
+            width: 100%;
+            margin: auto;
+        } 
+        
+        #bg-video{
+            width: 100%;
+            margin: auto;
+            background-size: cover;
+        }
+        
+        .catch {
+            height: 60%;
+            width: 3%;
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            transform: translateY(-50%) translateX(-50%);
+            -webkit-transform: translateY(-50%) translateX(-50%);
+            font-size: 32px;
+            color: #fff;
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+            font-style: italic;
+            font-weight: 100;
+        } 
+    }
+    
+    .banner {
+        height: 210px;
+        margin: 60px auto 0;
+        
+        nav {
+            padding: 0;
+            margin: 0 100px;
+
+            ul {
+                overflow: hidden;
+                margin: 20px 50px;
+                display: flex;
+
+                li {
+                    list-style: none;
+                    margin: auto;
+                    text-align: center;
+                }
+            }
+
+            a {
+                position: relative;
+                line-height: 48px;
+                display: block;
+                text-decoration: none;
+                color: #484359;
+                font-size: 28px;
+                transition-duration: 0.3s;
+                
+
+                &:hover {
+                  transform: scale(1.1);
+	              transition-duration: 0.3s;
+                }
+            }
+        } 
+    }
+}
+
+section.sake__cranberry {
+    position: relative;
+        
+    img {
+        display: block;
+        justify-content: center;
+        margin: auto;
+        width: 360px;
+        object-fit: contain;
+    }
+    
+    section.sake__cranberry__content {
+        display: flex;
+        align-items: center;
+        margin: 80px 0 0;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        
+        .sake__cranberry__item {
+            width: 300px;
+            margin: 0 20px;
+            display: block;
+            
+            img {
+                width: 294px;
+                object-fit: contain;
+                margin-bottom: 52px;
+            }
+
+            .text {
+                height: 86px;
+            }
+            
+            .text_2 {
+                height: 86px;
+            }
+            
+            .text_3 {
+                padding-top: 20px;
+                margin-bottom: 80px;
+                height: 40px;
+            }
+        }
+        
+    }
+    
+    .water__1 {
+        position: absolute;
+        top: 200px;
+        left: 0;
+        z-index: 1;
+    }
+    
+    .water__2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+    
+    .sake__cranberry__shop {
+        position: relative;
+        z-index: 2;
+        margin: 40px 0;
+        
+        img {
+            width: 860px;
+        }
+        
+        .text {
+            margin-top: 40px;
+            width: 300px;
+        }
+    }
+}
+
+section.sake__cheese {
+    position: relative;
+    margin-top: 100px;
+        
+    img {
+        display: block;
+        justify-content: center;
+        margin: auto;
+        width: 400px;
+        object-fit: contain;
+    }
+    
+    section.sake__cheese__content {
+        display: flex;
+        align-items: center;
+        margin: 80px 0 0;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        
+        .sake__cheese__item {
+            width: 300px;
+            margin: 0 20px;
+            display: block;
+            
+            img {
+                width: auto;
+                object-fit: contain;
+                margin-bottom: 52px;
+            }
+
+            .text {
+                height: 94px;
+            }
+            
+            .text_2 {
+                height: 120px;
+            }
+            
+            .text_3 {
+                padding-top: 20px;
+                margin-bottom: 80px;
+                height: 68px;
+            }
+        }
+        
+    }
+    
+    .water__2 {
+        position: absolute;
+        top: 260px;
+        left: 0;
+        z-index: 1;
+        width: 360px;
+    }
+    
+    .sake__cheese__shop {
+        position: relative;
+        z-index: 2;
+        margin: 40px 0;
+        
+        img {
+            width: 860px;
+        }
+        
+        .text {
+            margin-top: 40px;
+            width: 200px;
+        }
+    }
+}
+
+
+section.sake__mirai {
+    position: relative;
+    margin-top: 100px;
+        
+    img {
+        display: block;
+        justify-content: center;
+        margin: auto;
+        width: 260px;
+        object-fit: contain;
+    }
+    
+    section.sake__mirai__content {
+        display: flex;
+        align-items: center;
+        margin: 80px 0 0;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        
+        .sake__mirai__item {
+            width: 300px;
+            margin: 0 20px;
+            display: block;
+            
+            img {
+                width: auto;
+                object-fit: contain;
+                margin-bottom: 52px;
+            }
+
+            .text {
+                height: 94px;
+            }
+            
+            .text_2 {
+                height: 100px;
+            }
+            
+            .text_3 {
+                padding-top: 20px;
+                margin-bottom: 80px;
+                height: 48px;
+            }
+        }
+        
+    }
+    
+    .water__2 {
+        position: absolute;
+        top: 260px;
+        right: 0;
+        z-index: 1;
+        width: 360px;
+    }
+    
+    .sake__mirai__shop {
+        position: relative;
+        z-index: 2;
+        margin: 40px 0;
+        
+        img {
+            width: 860px;
+        }
+        
+        .text {
+            margin-top: 40px;
+            width: 200px;
+        }
+    }
+}
+
+section.sake__unagi {
+    position: relative;
+    margin-top: 100px;
+        
+    img {
+        display: block;
+        justify-content: center;
+        margin: auto;
+        width: 380px;
+        object-fit: contain;
+    }
+    
+    section.sake__unagi__content {
+        display: flex;
+        align-items: center;
+        margin: 80px 0 0;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        
+        .sake__unagi__item {
+            width: 300px;
+            margin: 0 20px;
+            display: block;
+            
+            img {
+                width: auto;
+                object-fit: contain;
+                margin-bottom: 52px;
+            }
+
+            .text {
+                height: 94px;
+            }
+            
+            .text_2 {
+                height: 100px;
+            }
+            
+            .text_3 {
+                padding-top: 20px;
+                margin-bottom: 80px;
+                height: 48px;
+            }
+        }
+        
+    }
+    
+    .water__1 {
+        position: absolute;
+        top: 200px;
+        left: 0;
+        z-index: 1;
+    }
+    
+    .water__2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+    
+    .sake__unagi__shop {
+        position: relative;
+        z-index: 2;
+        margin: 40px 0;
+        
+        img {
+            width: 860px;
+        }
+        
+        .text {
+            margin-top: 40px;
+            width: 200px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        .banner {
+            display: none;
+            height: 160px;
+            margin-top: 20px;
+            
+            nav {
+                margin-right: 0;
+                margin-left: 0;
+
+                ul {
+                    margin: 10px 20px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    li {
+                        width: 120px;
+                        margin: 0;
+
+                        img {
+                            height: 40px;
+                            width: 100px;
+                        }
+
+                        .ai {
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    section.sake__cranberry {
+        margin-top: 80px;
+        
+        img.title {
+            width: 200px;
+        }
+        
+        section.sake__cranberry__content {
+            display: block;
+            margin-top: 40px;
+            
+            .sake__cranberry__item {
+                width: 100%;
+                margin: 4px;
+                
+                img {
+                    width: 200px;
+                    margin: 10px;
+                }
+                
+                .text_2 {
+                    height: 70px;
+                }
+                
+                .right {
+                    float: right;
+                }
+            }
+        }
+        
+        .water__1 {
+            top: 300px;
+            width: 160px;
+        }
+        
+        .sake__cranberry__shop  {
+            
+            img {
+                width: 320px;
+            }
+            
+            img.text {
+                width: 200px;
+            }
+        }
+        
+        .water__2 {
+            width: 160px;
+        }
+    }
+    
+    section.sake__cheese {
+        margin-top: 80px;
+        
+        img.title {
+            width: 200px;
+            margin-right: 96px;
+        }
+        
+        section.sake__cheese__content {
+            display: block;
+            margin-top: 40px;
+            
+            .sake__cheese__item {
+                margin: 0;
+                width: 100%;
+                
+                img {
+                    width: 130px;
+                    margin: 10px 40px;
+                }
+                
+                .text {
+                    margin-right: 26px;
+                    margin-left: 26px;
+                    width: 160px;
+                }
+                
+                .text_2 {
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    width: 180px;
+                }
+                
+                .text_3 {
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    width: 200px;
+                }
+                
+                .right {
+                    float: right;
+                }
+            }
+        }
+        
+        .water__1 {
+            top: 300px;
+            width: 160px;
+        }
+        
+        .sake__cheese__shop  {
+            
+            img {
+                width: 320px;
+            }
+            
+            img.text {
+                width: 120px;
+            }
+        }
+        
+        .water__2 {
+            width: 160px;
+        }
+    }
+    
+    section.sake__mirai {
+        margin-top: 80px;
+        
+        img.title {
+            width: 150px;
+            margin-right: 94px;
+        }
+        
+        section.sake__mirai__content {
+            display: block;
+            margin-top: 40px;
+            
+            .sake__mirai__item {
+                margin: 0;
+                width: 100%;
+                
+                img {
+                    width: 130px;
+                    margin: 10px 40px;
+                }
+                
+                .text {
+                    margin-right: 26px;
+                    margin-left: 26px;
+                    width: 160px;
+                }
+                
+                .text_2 {
+                    margin-right: 20px;
+                    margin-left: 40px;
+                    width: 160px;
+                }
+                
+                .text_3 {
+                    margin-right: 10px;
+                    margin-left: 20px;
+                    width: 180px;
+                }
+                
+                .right {
+                    float: right;
+                }
+            }
+        }
+        
+        .sake__mirai__shop  {
+            
+            img {
+                width: 320px;
+            }
+            
+            img.text {
+                width: 120px;
+            }
+        }
+        
+        .water__2 {
+            width: 160px;
+        }
+    }
+    
+    section.sake__unagi {
+        margin-top: 80px;
+        
+        img.title {
+            width: 200px;
+            margin-right: 102px;
+        }
+        
+        section.sake__unagi__content {
+            display: block;
+            margin-top: 40px;
+            
+            .sake__unagi__item {
+                margin: 0;
+                width: 100%;
+                
+                img {
+                    width: 130px;
+                    margin: 10px 40px;
+                }
+                
+                .text {
+                    margin-right: 26px;
+                    margin-left: 26px;
+                    width: 160px;
+                }
+                
+                .text_2 {
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    width: 180px;
+                }
+                
+                .text_3 {
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    width: 180px;
+                }
+                
+                .right {
+                    float: right;
+                }
+            }
+        }
+        
+        .sake__unagi__shop  {
+            
+            img {
+                width: 320px;
+            }
+            
+            img.text {
+                width: 120px;
+            }
+        }
+        
+        .water__2 {
+            width: 160px;
+        }
+    }
+    
+}

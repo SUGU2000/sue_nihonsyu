@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang='ja'>
+    <head>
+        <meta charset="utf-8">
+        <title>SAKE</title>
+        <link rel="stylesheet" href="sake.css" />
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="日本酒をオシャレに、可愛く">
+        <meta property="og:image" content="nihonsyuya.png">
+    </head>
+    <body>
+        <header>
+            <div class="top">
+                <video id="bg-video" src="nihonsyuya.mp4" poster="images/sakeya.jpg" loop autoplay muted></video>
+                <img src="images/catch.png" class="catch fuwat">
+            </div>
+            <div class="banner">
+                <nav>
+                    <ul>
+                        <li><a href=""><img src="images/banner_1.png"></a></li>
+                        <li><a href=""><img src="images/banner_2.png"></a></li>
+                        <li><a href=""><img src="images/banner_3.png" class="ai"></a></li>
+                        <li><a href=""><img src="images/banner_4.png"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="sake__cranberry">
+                <img src="images/sake_title_1.png" class="title fuwat">
+                <section class="sake__cranberry__content">
+                    <div class="sake__cranberry__item fuwat">
+                        <img src="images/platstand_1.png">
+                        <img src="images/cranberry_text_1.png" class="text">
+                    </div>
+                    <div class="sake__cranberry__item fuwat">
+                        <img src="images/platstand_2.png" class="right">
+                        <img src="images/cranberry_text_2.png" class="text_2 right">
+                    </div>
+                    <div class="sake__cranberry__item fuwat">
+                        <img src="images/platstand_3.png">
+                        <img src="images/cranberry_text_3.png" class="text_3">
+                    </div>
+                </section>
+                <img src="images/water_1.png" class="water__1">
+                <section class="sake__cranberry__shop fuwat">
+                    <img src="images/platstand.png">
+                    <img src="images/cranberry_text_4.png" class="text">
+                </section>
+                <img src="images/water_2.png" class="water__2">
+            </section>
+            
+            <section class="sake__cheese">
+                <img src="images/sake_title_2.png" class="fuwat title">
+                <section class="sake__cheese__content">
+                    <div class="sake__cheese__item fuwat">
+                        <img src="images/nihonsyuya_1.png" class="right">
+                        <img src="images/nihonsyuya_text_1.png" class="text right">
+                    </div>
+                    <div class="sake__cheese__item fuwat">
+                        <img src="images/nihonsyuya_2.png">
+                        <img src="images/nihonsyuya_text_2.png" class="text_2">
+                    </div>
+                    <div class="sake__cheese__item fuwat">
+                        <img src="images/nihonsyuya_3.png" class="right">
+                        <img src="images/nihonsyuya_text_3.png" class="text_3 right">
+                    </div>
+                </section>
+                <section class="sake__cheese__shop fuwat">
+                    <img src="images/nihonsyuya.png">
+                    <img src="images/nihonsyuya_text_4.png" class="text">
+                </section>
+                <img src="images/water_3.png" class="water__2">
+            </section>
+            
+            <section class="sake__mirai">
+                <img src="images/title_3.png" class="fuwat title">
+                <section class="sake__mirai__content">
+                    <div class="sake__mirai__item fuwat">
+                        <img src="images/mirai_1.png">
+                        <img src="images/mirai_text_1.png" class="text">
+                    </div>
+                    <div class="sake__mirai__item fuwat">
+                        <img src="images/mirai_2.png" class="right">
+                        <img src="images/mirai_text_2.png" class="text_2 right">
+                    </div>
+                    <div class="sake__mirai__item fuwat">
+                        <img src="images/mirai_3.png">
+                        <img src="images/mirai_text_3.png" class="text_3">
+                    </div>
+                </section>
+                <section class="sake__mirai__shop fuwat">
+                    <img src="images/mirai.png">
+                    <img src="images/mirai_text_4.png" class="text">
+                </section>
+                <img src="images/water_4.png" class="water__2">
+            </section>
+            
+            <section class="sake__unagi">
+                <img src="images/title_4.png" class="fuwat title">
+                <section class="sake__unagi__content">
+                    <div class="sake__unagi__item fuwat">
+                        <img src="images/nihonsyuya_4.png" class="right">
+                        <img src="images/nihonsyuya_text_5.png" class="text right">
+                    </div>
+                    <div class="sake__unagi__item fuwat">
+                        <img src="images/nihonsyuya_5.png">
+                        <img src="images/nihonsyuya_text_6.png" class="text_2">
+                    </div>
+                    <div class="sake__unagi__item fuwat">
+                        <img src="images/nihonsyuya_6.png" class="right">
+                        <img src="images/nihonsyuya_text_7.png" class="text_3 right">
+                    </div>
+                </section>
+                <section class="sake__unagi__shop fuwat">
+                    <img src="images/nihonsyuya.png">
+                    <img src="images/nihonsyuya_text_4.png" class="text">
+                </section>
+                <img src="images/water_5.png" class="water__1">
+            </section>
+        </main> 
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script>
+            $(function($) {
+                $('.fuwat').css('visibility', 'hidden');
+                $(window).on('scroll load', function() {
+                  var windowHeight = $(window).height(),
+                    topWindow = $(window).scrollTop();
+                  $('.fuwat').each(function() {
+                    var objectPosition = $(this).offset().top;
+                    if (topWindow > objectPosition - windowHeight + 200) {
+                      $(this).addClass("fuwatAnime");
+                    }
+                  });
+                });
+            });
+        </script>
+    </body>
+</html>
