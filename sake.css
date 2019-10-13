@@ -123,7 +123,7 @@ section.sake__cranberry {
     display: block;
     justify-content: center;
     margin: auto;
-    width: 360px;
+    width: 400px;
     object-fit: contain; }
   /* line 146, /Users/matsuyasuguru/sake_sue/sake.scss */
   section.sake__cranberry section.sake__cranberry__content {
@@ -248,7 +248,7 @@ section.sake__mirai {
     display: block;
     justify-content: center;
     margin: auto;
-    width: 260px;
+    width: 400px;
     object-fit: contain; }
   /* line 297, /Users/matsuyasuguru/sake_sue/sake.scss */
   section.sake__mirai section.sake__mirai__content {
@@ -308,7 +308,7 @@ section.sake__unagi {
     display: block;
     justify-content: center;
     margin: auto;
-    width: 380px;
+    width: 400px;
     object-fit: contain; }
   /* line 369, /Users/matsuyasuguru/sake_sue/sake.scss */
   section.sake__unagi section.sake__unagi__content {
@@ -333,12 +333,12 @@ section.sake__unagi {
         height: 94px; }
       /* line 392, /Users/matsuyasuguru/sake_sue/sake.scss */
       section.sake__unagi section.sake__unagi__content .sake__unagi__item .text_2 {
-        height: 100px; }
+        height: 108px; }
       /* line 396, /Users/matsuyasuguru/sake_sue/sake.scss */
       section.sake__unagi section.sake__unagi__content .sake__unagi__item .text_3 {
         padding-top: 20px;
         margin-bottom: 80px;
-        height: 48px; }
+        height: 64px; }
   /* line 405, /Users/matsuyasuguru/sake_sue/sake.scss */
   section.sake__unagi .water__1 {
     position: absolute;
@@ -413,27 +413,27 @@ section.sake__unagi {
           height: 70px; }
         /* line 493, /Users/matsuyasuguru/sake_sue/sake.scss */
         section.sake__cranberry section.sake__cranberry__content .sake__cranberry__item .right {
-          float: right; }
-    /* line 499, /Users/matsuyasuguru/sake_sue/sake.scss */
+          float: right;
+          margin-left: 200px; }
+    /* line 500, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cranberry .water__1 {
       top: 300px;
-      width: 160px; }
-    /* line 506, /Users/matsuyasuguru/sake_sue/sake.scss */
+      width: 220px; }
+    /* line 507, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cranberry .sake__cranberry__shop img {
       width: 320px; }
-    /* line 510, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 511, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cranberry .sake__cranberry__shop img.text {
       width: 200px; }
-    /* line 515, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 516, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cranberry .water__2 {
-      width: 160px; }
-  /* line 520, /Users/matsuyasuguru/sake_sue/sake.scss */
+      width: 220px; }
+  /* line 521, /Users/matsuyasuguru/sake_sue/sake.scss */
   section.sake__cheese {
     margin-top: 80px; }
-    /* line 523, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 524, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cheese img.title {
-      width: 200px;
-      margin-right: 96px; }
+      width: 200px; }
     /* line 528, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cheese section.sake__cheese__content {
       display: block;
@@ -463,27 +463,27 @@ section.sake__unagi {
           width: 200px; }
         /* line 559, /Users/matsuyasuguru/sake_sue/sake.scss */
         section.sake__cheese section.sake__cheese__content .sake__cheese__item .right {
-          float: right; }
-    /* line 565, /Users/matsuyasuguru/sake_sue/sake.scss */
+          float: right;
+          margin-left: 200px; }
+    /* line 566, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cheese .water__1 {
       top: 300px;
       width: 160px; }
-    /* line 572, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 573, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cheese .sake__cheese__shop img {
       width: 320px; }
-    /* line 576, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 577, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cheese .sake__cheese__shop img.text {
       width: 120px; }
-    /* line 581, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 582, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__cheese .water__2 {
-      width: 160px; }
-  /* line 586, /Users/matsuyasuguru/sake_sue/sake.scss */
+      width: 220px; }
+  /* line 587, /Users/matsuyasuguru/sake_sue/sake.scss */
   section.sake__mirai {
     margin-top: 80px; }
-    /* line 589, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 590, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__mirai img.title {
-      width: 150px;
-      margin-right: 94px; }
+      width: 200px; }
     /* line 594, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__mirai section.sake__mirai__content {
       display: block;
@@ -513,23 +513,23 @@ section.sake__unagi {
           width: 180px; }
         /* line 625, /Users/matsuyasuguru/sake_sue/sake.scss */
         section.sake__mirai section.sake__mirai__content .sake__mirai__item .right {
-          float: right; }
-    /* line 633, /Users/matsuyasuguru/sake_sue/sake.scss */
+          float: right;
+          margin-left: 200px; }
+    /* line 634, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__mirai .sake__mirai__shop img {
       width: 320px; }
-    /* line 637, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 638, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__mirai .sake__mirai__shop img.text {
       width: 120px; }
-    /* line 642, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 643, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__mirai .water__2 {
-      width: 160px; }
-  /* line 647, /Users/matsuyasuguru/sake_sue/sake.scss */
+      width: 220px; }
+  /* line 648, /Users/matsuyasuguru/sake_sue/sake.scss */
   section.sake__unagi {
     margin-top: 80px; }
-    /* line 650, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 651, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__unagi img.title {
-      width: 200px;
-      margin-right: 102px; }
+      width: 200px; }
     /* line 655, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__unagi section.sake__unagi__content {
       display: block;
@@ -559,15 +559,17 @@ section.sake__unagi {
           width: 180px; }
         /* line 686, /Users/matsuyasuguru/sake_sue/sake.scss */
         section.sake__unagi section.sake__unagi__content .sake__unagi__item .right {
-          float: right; }
-    /* line 694, /Users/matsuyasuguru/sake_sue/sake.scss */
+          float: right;
+          margin-left: 200px; }
+    /* line 695, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__unagi .sake__unagi__shop img {
       width: 320px; }
-    /* line 698, /Users/matsuyasuguru/sake_sue/sake.scss */
+    /* line 699, /Users/matsuyasuguru/sake_sue/sake.scss */
     section.sake__unagi .sake__unagi__shop img.text {
       width: 120px; }
-    /* line 703, /Users/matsuyasuguru/sake_sue/sake.scss */
-    section.sake__unagi .water__2 {
-      width: 160px; } }
+    /* line 704, /Users/matsuyasuguru/sake_sue/sake.scss */
+    section.sake__unagi .water__1 {
+      width: 220px;
+      bottom: 100px; } }
 
 /*# sourceMappingURL=sake.css.map */
