@@ -90,54 +90,58 @@ header {
             writing-mode: vertical-rl;
             font-style: italic;
             font-weight: 100;
-        } 
-    }
-    
-    .banner {
-        height: 210px;
-        margin: 60px auto 0;
+        }
         
-        nav {
-            padding: 0;
-            margin: 0 100px;
+        .banner {
+            position: fixed;
+            z-index: 3;
+            bottom: 0;
+            height: 140px;
+            width: 100%;
+            margin: 60px auto 0;
 
-            ul {
-                overflow: hidden;
-                margin: 20px 50px;
-                display: flex;
+            nav {
+                padding: 0;
+                margin: 0 100px;
 
-                li {
-                    list-style: none;
-                    margin: auto;
-                    text-align: center;
+                ul {
+                    overflow: hidden;
+                    justify-content: center;
+                    display: flex;
+
+                    li {
+                        list-style: none;
+                        margin: 0 10px;
+                        text-align: center;
+                    }
                 }
-            }
 
-            a {
-                position: relative;
-                line-height: 48px;
-                display: block;
-                text-decoration: none;
-                color: #484359;
-                font-size: 28px;
-                transition-duration: 0.3s;
-                
+                a {
+                    position: relative;
+                    line-height: 48px;
+                    display: block;
+                    text-decoration: none;
+                    color: #484359;
+                    font-size: 28px;
+                    transition-duration: 0.3s;
 
-                &:hover {
-                  transform: scale(1.1);
-	              transition-duration: 0.3s;
+
+                    &:hover {
+                      transform: scale(1.1);
+                      transition-duration: 0.3s;
+                    }
                 }
-            }
-        } 
+            } 
+        }
     }
 }
 
 section.sake__cranberry {
     position: relative;
+    margin-top: 140px;
         
     img {
         display: block;
-        justify-content: center;
         margin: auto;
         width: 400px;
         object-fit: contain;
@@ -159,7 +163,7 @@ section.sake__cranberry {
             img {
                 width: 294px;
                 object-fit: contain;
-                margin-bottom: 52px;
+//                margin-bottom: 52px;
             }
 
             .text {
@@ -172,7 +176,7 @@ section.sake__cranberry {
             
             .text_3 {
                 padding-top: 20px;
-                margin-bottom: 80px;
+                margin-bottom: 20px;
                 height: 40px;
             }
         }
@@ -202,9 +206,24 @@ section.sake__cranberry {
             width: 860px;
         }
         
-        .text {
-            margin-top: 40px;
+        .shop__link {
             width: 300px;
+            margin: 0 auto;
+            
+            a {
+                .text {
+                    margin-top: 40px;
+                    width: 300px;
+                    transition-duration: 0.3s;
+                }
+
+                &:hover {                
+                    .text {
+                        transform: scale(1.1);
+                        transition-duration: 0.3s;
+                    }
+                }
+            }
         }
     }
 }
@@ -237,7 +256,6 @@ section.sake__cheese {
             img {
                 width: auto;
                 object-fit: contain;
-                margin-bottom: 52px;
             }
 
             .text {
@@ -250,7 +268,7 @@ section.sake__cheese {
             
             .text_3 {
                 padding-top: 20px;
-                margin-bottom: 80px;
+                margin-bottom: 20px;
                 height: 68px;
             }
         }
@@ -274,9 +292,24 @@ section.sake__cheese {
             width: 860px;
         }
         
-        .text {
-            margin-top: 40px;
+        .shop__link {
             width: 200px;
+            margin: 0 auto;
+            
+            a {
+                .text {
+                    margin-top: 40px;
+                    width: 200px;
+                    transition-duration: 0.3s;
+                }
+
+                &:hover {                
+                    .text {
+                        transform: scale(1.1);
+                        transition-duration: 0.3s;
+                    }
+                }
+            }
         }
     }
 }
@@ -310,7 +343,6 @@ section.sake__mirai {
             img {
                 width: auto;
                 object-fit: contain;
-                margin-bottom: 52px;
             }
 
             .text {
@@ -323,7 +355,7 @@ section.sake__mirai {
             
             .text_3 {
                 padding-top: 20px;
-                margin-bottom: 80px;
+                margin-bottom: 20px;
                 height: 48px;
             }
         }
@@ -347,9 +379,24 @@ section.sake__mirai {
             width: 860px;
         }
         
-        .text {
-            margin-top: 40px;
+        .shop__link {
             width: 200px;
+            margin: 0 auto;
+            
+            a {
+                .text {
+                    margin-top: 40px;
+                    width: 200px;
+                    transition-duration: 0.3s;
+                }
+
+                &:hover {                
+                    .text {
+                        transform: scale(1.1);
+                        transition-duration: 0.3s;
+                    }
+                }
+            }
         }
     }
 }
@@ -357,6 +404,7 @@ section.sake__mirai {
 section.sake__unagi {
     position: relative;
     margin-top: 100px;
+    margin-bottom: 100px;
         
     img {
         display: block;
@@ -382,7 +430,6 @@ section.sake__unagi {
             img {
                 width: auto;
                 object-fit: contain;
-                margin-bottom: 52px;
             }
 
             .text {
@@ -395,7 +442,7 @@ section.sake__unagi {
             
             .text_3 {
                 padding-top: 20px;
-                margin-bottom: 80px;
+                margin-bottom: 20px;
                 height: 64px;
             }
         }
@@ -425,11 +472,33 @@ section.sake__unagi {
             width: 860px;
         }
         
-        .text {
-            margin-top: 40px;
+        .shop__link {
             width: 200px;
+            margin: 0 auto;
+            
+            a {
+                .text {
+                    margin-top: 40px;
+                    width: 200px;
+                    transition-duration: 0.3s;
+                }
+
+                &:hover {                
+                    .text {
+                        transform: scale(1.1);
+                        transition-duration: 0.3s;
+                    }
+                }
+            }
         }
     }
+}
+
+footer {
+    text-align: center;
+    color: #484359;
+    font-family: 'Be Vietnam', sans-serif;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 450px) {
